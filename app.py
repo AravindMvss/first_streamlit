@@ -34,7 +34,7 @@ if disp == "with x-axis":
 lay1,lay2=st.columns(2)
 
 lay1.line_chart(df)
-lay1.write("Accuracy: 65")
+lay1.write("Accuracies: 65")
 lay2.line_chart(df)
 lay2.write("Accuracy: 65")
 
